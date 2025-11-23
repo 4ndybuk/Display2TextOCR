@@ -17,10 +17,10 @@ For non-legacy camera systems.
 4. Live plotting of data
 ---
 ### Installation
-1. Git clone the repo
+1. Git clone the repo  
    `$ git clone https://github.com/4ndybuk/Display2TextOCR`
-2. Install the packages while in the directory
+2. Install the packages while in the directory  
    `$ pip install -r requirements.txt`
 3. Configure the **recognition_module.py** to crop the camera image accordingly (read comment lines)
-4. Run the script
+4. Run the script  
    `$ python run_camera.py`
