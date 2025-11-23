@@ -1,8 +1,8 @@
 # Display 2 Text OCR 
 ---
 ## Purpose
-A lighweight OCR scripts designed for a Raspberry Pi SBCs.
-Converts input camera images to text and appends to a seperate log file.
+A lighweight OCR scripts designed for a Raspberry Pi SBCs.  
+Converts input camera images to text and appends to a seperate log file.  
 Works only with non-legacy camera system.
 ---
 ### Features
