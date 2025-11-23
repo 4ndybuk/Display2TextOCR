@@ -3,7 +3,7 @@
 ## Purpose
 A lighweight OCR scripts designed for a Raspberry Pi SBCs.  
 Converts input camera images to text and appends to a seperate log file.  
-Works only with non-legacy camera system.
+For non-legacy camera systems.
 ---
 ### Features
 1. Minimal configuration for the camera using Picamera2 package
