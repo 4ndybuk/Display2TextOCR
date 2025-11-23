@@ -6,9 +6,9 @@ Converts input camera images to text and appends to a seperate log file.
 For non-legacy camera systems.
 
 ![itkdb](https://img.shields.io/badge/picamera2-0.3.31-brightgreen) 
-![PySide6](https://img.shields.io/badge/pytesseract-0.3.13-brightgreen)   
+![PySide6](https://img.shields.io/badge/pytesseract-0.3.13-brightgreen)     
 ![Plotly](https://img.shields.io/badge/OpenCV-4.10.0.84-brightgreen)  
-![License](https://img.shields.io/badge/numpy-1.25.0-blue) 
+![License](https://img.shields.io/badge/numpy-1.25.0-blue)  
 ---
 ### Features
 1. Minimal configuration for the camera using Picamera2 package
