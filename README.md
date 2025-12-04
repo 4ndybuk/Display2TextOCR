@@ -11,7 +11,7 @@ For non-legacy camera systems.
 ![License](https://img.shields.io/badge/numpy-1.25.0-blue)  
 ---
 ### Features
-1. Minimal configuration for the camera using Picamera2 package
+1. Minimal configuration for the camera using Picamera2
 2. Image processing with OpenCV and Tensorflow ESCPN super-resolution
 3. Text recognition processed through Tesseract OCR (pytesseract)
 4. Live plotting of data
