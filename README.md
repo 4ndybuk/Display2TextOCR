@@ -1,9 +1,7 @@
 # Display 2 Text OCR 
 ---
 ## Purpose
-A lighweight OCR scripts designed for a Raspberry Pi SBCs.  
-Converts input camera images to text and appends to a seperate log file.  
-For non-legacy camera systems.
+Computer vision script for Raspberry Pi to capture live image feeds and process embedded content for output in log file. 
 
 ![itkdb](https://img.shields.io/badge/picamera2-0.3.31-brightgreen)  
 ![PySide6](https://img.shields.io/badge/pytesseract-0.3.13-brightgreen)     
@@ -12,15 +10,22 @@ For non-legacy camera systems.
 ---
 ### Features
 1. Minimal configuration for the camera using Picamera2
-2. Image processing with OpenCV and Tensorflow ESCPN super-resolution
+2. Image pre-processing using OpenCV to optimise the image quality and identify objects
+3. Low-resolution inputs enhanced with an ESPCN super-resolution model
 3. Text recognition processed through Tesseract OCR (pytesseract)
-4. Live plotting of data
+4. Results logged against timestamps, enabling automated, continous monitoring and data capture
 ---
 ### Installation
-1. Git clone the repo  
-   `$ git clone https://github.com/4ndybuk/Display2TextOCR`
-2. Install the packages while in the directory  
-   `$ pip install -r requirements.txt`
-3. Configure the **recognition_module.py** to crop the camera image accordingly (read comment lines)
-4. Run the script  
-   `$ python run_camera.py`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/4ndybuk/Display2TextOCR
+   ```
+2. **Install the dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Configure the **recognition_module.py** to adjust the camera images accordingly to your needs (read comment lines)
+4. **Run the script**  
+   ```bash
+   python run_camera.py
+   ```
