@@ -1,7 +1,7 @@
 # Display 2 Text OCR 
 ---
 ## Purpose
-Computer vision script for Raspberry Pi to capture live image feeds and process embedded content for output in log file. 
+Real-time computer vision system for Raspberry Pi, designed to capture live image feeds, extract embedded features, and log structured outputs for downstream analysis.
 
 ![itkdb](https://img.shields.io/badge/picamera2-0.3.31-brightgreen)  
 ![PySide6](https://img.shields.io/badge/pytesseract-0.3.13-brightgreen)     
