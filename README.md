@@ -1,4 +1,4 @@
-# Display 2 Text OCR 
+# Display2Text OCR 
 ---
 ## Purpose
 Real-time computer vision system for Raspberry Pi, designed to capture live image feeds, extract embedded features, and log structured outputs for downstream analysis.
