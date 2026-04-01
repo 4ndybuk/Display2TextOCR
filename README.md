@@ -14,6 +14,7 @@ Real-time computer vision system for Raspberry Pi, designed to capture live imag
 3. Low-resolution inputs enhanced with an ESPCN super-resolution model
 3. Text recognition processed through Tesseract OCR (pytesseract)
 4. Results logged against timestamps, enabling automated, continous monitoring and data capture
+5. Graph plotting script included for the logged result files
 ---
 ### Installation
 1. **Clone the repository**
@@ -28,4 +29,8 @@ Real-time computer vision system for Raspberry Pi, designed to capture live imag
 4. **Run the script**  
    ```bash
    python run_camera.py
+   ```
+5. **Optional: Plot the results from logged files**  
+   ```bash
+   python graph_plotter.py
    ```
